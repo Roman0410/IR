@@ -1,0 +1,122 @@
+.footer {
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    padding: 32px;
+  }
+  gap: 32px;
+  @media screen and (max-width: 768px) {
+    padding: 32px 16px;
+  }
+  .col {
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--accent-color);
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -1.68px;
+    margin-bottom: 32px;
+    span {
+      font-weight: 300;
+    }
+    img {
+      width: 50px;
+    }
+  }
+  .about {
+    max-width: 310px;
+    @media screen and (max-width: 1024px) {
+      max-width: 100%;
+    }
+  }
+  .title {
+    color: var(--accent-color);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -1.12px;
+    margin-bottom: 16px;
+  }
+  .text_14 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.98px;
+  }
+  .col2 {
+    display: flex;
+    gap: 32px;
+  }
+  .col3 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    .title {
+      margin-bottom: 0;
+    }
+  }
+  .sub-col {
+    @media screen and (max-width: 1024px) {
+      width: 50%;
+    }
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    margin-top: -8px;
+    min-width: 160px;
+    @media screen and (max-width: 1024px) {
+      min-width: 0;
+    }
+  }
+  .list-item {
+    white-space: nowrap;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.56px;
+    padding: 8px 0;
+    &:hover {
+      color: var(--accent-color);
+    }
+    &:not(:last-child) {
+      border-bottom: 1px solid #484848;
+    }
+  }
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    a {
+      color: #efefef;
+      font-size: 16px;
+      font-weight: 300;
+      letter-spacing: -1.12px;
+      @media screen and (max-width: 1024px) {
+        font-size: 14px;
+      }
+      span {
+        color: #f9be2a;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        margin-right: 4px;
+      }
+    }
+  }
+  .soc-list {
+    display: flex;
+    gap: 24px;
+  }
+}

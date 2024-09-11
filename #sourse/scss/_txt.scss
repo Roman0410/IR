@@ -1,0 +1,79 @@
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Lexend Exa";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 123.45%;
+  letter-spacing: -1.92px;
+  max-width: 940px;
+  @media screen and (max-width: 1024px) {
+    font-size: 36px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+    letter-spacing: -0.96px;
+  }
+  span {
+    color: var(--accent-color);
+    font-family: "Lexend Exa";
+    font-size: inherit;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.45%;
+    letter-spacing: inherit;
+  }
+  .more {
+    font-weight: 300;
+    color: #fff;
+  }
+}
+
+.hero-subtitle {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -1.4px;
+  @media screen and (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+.text_20 {
+}
+.text_16 {
+  font-family: "Lexend Exa";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.12px;
+  @media screen and (max-width: 1024px) {
+    font-size: 14px;
+  }
+}
+.section-title {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 123.45%;
+  letter-spacing: -1.92px;
+  span {
+    color: var(--accent-color);
+  }
+  span {
+    font-size: inherit;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 123.45%;
+    letter-spacing: -1.92px;
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 32px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+}
